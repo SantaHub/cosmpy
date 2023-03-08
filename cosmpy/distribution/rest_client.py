@@ -23,7 +23,7 @@ from google.protobuf.json_format import Parse
 
 from cosmpy.common.rest_client import RestClient
 from cosmpy.distribution.interface import Distribution
-from cosmpy.protos.cosmos.distribution.v1beta1.query_pb2 import (
+from cosmos.distribution.v1beta1.query_pb2 import (
     QueryCommunityPoolResponse,
     QueryDelegationRewardsRequest,
     QueryDelegationRewardsResponse,

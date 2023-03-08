@@ -23,7 +23,7 @@ from google.protobuf.json_format import Parse
 
 from cosmpy.common.rest_client import RestClient
 from cosmpy.evidence.interface import Evidence
-from cosmpy.protos.cosmos.evidence.v1beta1.query_pb2 import (
+from cosmos.evidence.v1beta1.query_pb2 import (
     QueryAllEvidenceRequest,
     QueryAllEvidenceResponse,
     QueryEvidenceRequest,

@@ -22,7 +22,7 @@ from typing import Any, Callable, List, Optional, Union
 
 from cosmpy.aerial.tx import SigningCfg
 from cosmpy.aerial.tx_helpers import SubmittedTx
-from cosmpy.protos.cosmos.base.query.v1beta1.pagination_pb2 import PageRequest
+from cosmos.base.query.v1beta1.pagination_pb2 import PageRequest
 
 
 def prepare_and_broadcast_basic_transaction(

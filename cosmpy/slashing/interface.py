@@ -20,7 +20,7 @@
 
 from abc import ABC, abstractmethod
 
-from cosmpy.protos.cosmos.slashing.v1beta1.query_pb2 import (
+from cosmos.slashing.v1beta1.query_pb2 import (
     QueryParamsResponse,
     QuerySigningInfoRequest,
     QuerySigningInfoResponse,

@@ -22,8 +22,8 @@
 from enum import Enum
 
 from cosmpy.crypto.address import Address
-from cosmpy.protos.cosmos.base.v1beta1.coin_pb2 import Coin
-from cosmpy.protos.cosmos.staking.v1beta1.tx_pb2 import (
+from cosmos.base.v1beta1.coin_pb2 import Coin
+from cosmos.staking.v1beta1.tx_pb2 import (
     MsgBeginRedelegate,
     MsgDelegate,
     MsgUndelegate,

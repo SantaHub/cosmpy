@@ -40,7 +40,7 @@ from cosmpy.aerial.wallet import Wallet
 from cosmpy.common.utils import json_encode
 from cosmpy.crypto.address import Address
 from cosmpy.crypto.hashfuncs import sha256
-from cosmpy.protos.cosmos.base.query.v1beta1.pagination_pb2 import PageRequest
+from cosmos.base.query.v1beta1.pagination_pb2 import PageRequest
 from cosmpy.protos.cosmwasm.wasm.v1.query_pb2 import (
     QueryCodesRequest,
     QuerySmartContractStateRequest,

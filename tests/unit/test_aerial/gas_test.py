@@ -28,7 +28,7 @@ from cosmpy.aerial.gas import (
     SimulationGasStrategy,
 )
 from cosmpy.aerial.tx import Transaction
-from cosmpy.protos.cosmos.bank.v1beta1.tx_pb2 import MsgSend
+from cosmos.bank.v1beta1.tx_pb2 import MsgSend
 from cosmpy.protos.cosmwasm.wasm.v1.tx_pb2 import (
     MsgExecuteContract,
     MsgInstantiateContract,

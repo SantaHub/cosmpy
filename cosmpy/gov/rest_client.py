@@ -22,7 +22,7 @@ from google.protobuf.json_format import Parse
 
 from cosmpy.common.rest_client import RestClient
 from cosmpy.gov.interface import Gov
-from cosmpy.protos.cosmos.gov.v1beta1.query_pb2 import (
+from cosmos.gov.v1beta1.query_pb2 import (
     QueryDepositRequest,
     QueryDepositResponse,
     QueryDepositsRequest,

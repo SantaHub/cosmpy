@@ -46,7 +46,7 @@ from cosmpy.aerial.client import LedgerClient, NetworkConfig
 from cosmpy.aerial.wallet import LocalWallet
 from cosmpy.aerial.tx import Transaction
 from cosmpy.aerial.client.utils import prepare_and_broadcast_basic_transaction
-from cosmpy.protos.cosmos.distribution.v1beta1.tx_pb2 import MsgWithdrawValidatorCommission
+from cosmos.distribution.v1beta1.tx_pb2 import MsgWithdrawValidatorCommission
 from cosmpy.crypto.keypairs import PrivateKey
 
 client = LedgerClient(NetworkConfig.fetchai_dorado_testnet())
@@ -81,8 +81,8 @@ from cosmpy.aerial.wallet import LocalWallet
 from cosmpy.aerial.tx import Transaction
 from cosmpy.aerial.client.utils import prepare_and_broadcast_basic_transaction
 from cosmpy.crypto.keypairs import PrivateKey
-from cosmpy.protos.cosmos.distribution.v1beta1.tx_pb2 import MsgWithdrawValidatorCommission
-from cosmpy.protos.cosmos.authz.v1beta1.tx_pb2 import MsgExec
+from cosmos.distribution.v1beta1.tx_pb2 import MsgWithdrawValidatorCommission
+from cosmos.authz.v1beta1.tx_pb2 import MsgExec
 from google.protobuf import any_pb2
 
 client = LedgerClient(NetworkConfig.fetchai_dorado_testnet())
@@ -121,9 +121,9 @@ from cosmpy.aerial.wallet import LocalWallet
 from cosmpy.aerial.tx import Transaction
 from cosmpy.aerial.client.utils import prepare_and_broadcast_basic_transaction
 from cosmpy.crypto.keypairs import PrivateKey
-from cosmpy.protos.cosmos.distribution.v1beta1.tx_pb2 import MsgWithdrawValidatorCommission
-from cosmpy.protos.cosmos.authz.v1beta1.tx_pb2 import MsgGrant
-from cosmpy.protos.cosmos.authz.v1beta1.authz_pb2 import GenericAuthorization, Grant
+from cosmos.distribution.v1beta1.tx_pb2 import MsgWithdrawValidatorCommission
+from cosmos.authz.v1beta1.tx_pb2 import MsgGrant
+from cosmos.authz.v1beta1.authz_pb2 import GenericAuthorization, Grant
 
 from google.protobuf import any_pb2, timestamp_pb2
 from datetime import datetime, timedelta

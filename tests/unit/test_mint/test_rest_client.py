@@ -25,7 +25,7 @@ from google.protobuf.json_format import ParseDict
 
 from cosmpy.common.utils import json_encode
 from cosmpy.mint.rest_client import MintRestClient
-from cosmpy.protos.cosmos.mint.v1beta1.query_pb2 import (
+from cosmos.mint.v1beta1.query_pb2 import (
     QueryAnnualProvisionsResponse,
     QueryInflationResponse,
     QueryParamsResponse,

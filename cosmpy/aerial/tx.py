@@ -28,9 +28,9 @@ from google.protobuf.any_pb2 import Any as ProtoAny
 from cosmpy.aerial.coins import parse_coins
 from cosmpy.crypto.interface import Signer
 from cosmpy.crypto.keypairs import PublicKey
-from cosmpy.protos.cosmos.crypto.secp256k1.keys_pb2 import PubKey as ProtoPubKey
-from cosmpy.protos.cosmos.tx.signing.v1beta1.signing_pb2 import SignMode
-from cosmpy.protos.cosmos.tx.v1beta1.tx_pb2 import (
+from cosmos.crypto.secp256k1.keys_pb2 import PubKey as ProtoPubKey
+from cosmos.tx.signing.v1beta1.signing_pb2 import SignMode
+from cosmos.tx.v1beta1.tx_pb2 import (
     AuthInfo,
     Fee,
     ModeInfo,

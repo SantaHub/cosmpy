@@ -29,7 +29,7 @@ total_period = 60000
 We will now select a validator to delegate our tokens. We will do this by analyzing which one has the lowest `commission` and a reasonable amount of stake delegated compared to the total stake.
 
 ```python
-from cosmpy.protos.cosmos.staking.v1beta1.query_pb2 import QueryValidatorsRequest
+from cosmos.staking.v1beta1.query_pb2 import QueryValidatorsRequest
 
 req = QueryValidatorsRequest()
 resp = ledger.staking.Validators(req)

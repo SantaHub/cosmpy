@@ -28,9 +28,9 @@ from cosmpy.aerial.client.staking import create_delegate_msg
 from cosmpy.aerial.faucet import FaucetApi
 from cosmpy.aerial.tx import SigningCfg, Transaction
 from cosmpy.aerial.wallet import LocalWallet
-from cosmpy.protos.cosmos.bank.v1beta1.query_pb2 import QueryTotalSupplyRequest
-from cosmpy.protos.cosmos.params.v1beta1.query_pb2 import QueryParamsRequest
-from cosmpy.protos.cosmos.staking.v1beta1.query_pb2 import QueryValidatorsRequest
+from cosmos.bank.v1beta1.query_pb2 import QueryTotalSupplyRequest
+from cosmos.params.v1beta1.query_pb2 import QueryParamsRequest
+from cosmos.staking.v1beta1.query_pb2 import QueryValidatorsRequest
 
 
 # This function returns the total reward for given:

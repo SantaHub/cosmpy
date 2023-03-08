@@ -207,8 +207,8 @@ clean-test:
 ########################################
 
 # Constants
-COSMOS_SDK_URL := https://github.com/fetchai/cosmos-sdk
-COSMOS_SDK_VERSION := v0.18.0
+COSMOS_SDK_URL := https://github.com/cosmos/cosmos-sdk
+COSMOS_SDK_VERSION := v0.46.5
 COSMOS_SDK_DIR := build/cosmos-sdk-proto-schema
 
 WASMD_URL := https://github.com/CosmWasm/wasmd

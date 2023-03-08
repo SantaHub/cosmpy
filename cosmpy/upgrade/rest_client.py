@@ -20,7 +20,7 @@
 from google.protobuf.json_format import Parse
 
 from cosmpy.common.rest_client import RestClient
-from cosmpy.protos.cosmos.upgrade.v1beta1.query_pb2 import (
+from cosmos.upgrade.v1beta1.query_pb2 import (
     QueryAppliedPlanRequest,
     QueryAppliedPlanResponse,
     QueryCurrentPlanRequest,

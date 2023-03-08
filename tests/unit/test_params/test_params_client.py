@@ -25,7 +25,7 @@ from google.protobuf.json_format import ParseDict
 
 from cosmpy.common.utils import json_encode
 from cosmpy.params.rest_client import ParamsRestClient
-from cosmpy.protos.cosmos.params.v1beta1.query_pb2 import (
+from cosmos.params.v1beta1.query_pb2 import (
     QueryParamsRequest,
     QueryParamsResponse,
 )

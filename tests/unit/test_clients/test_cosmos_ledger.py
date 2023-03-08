@@ -37,16 +37,16 @@
 # from cosmpy.cosmwasm.rest_client import CosmWasmRestClient
 # from cosmpy.crypto.address import Address
 # from cosmpy.crypto.keypairs import PrivateKey
-# from cosmpy.protos.cosmos.auth.v1beta1.auth_pb2 import BaseAccount
-# from cosmpy.protos.cosmos.auth.v1beta1.query_pb2 import (
+# from cosmos.auth.v1beta1.auth_pb2 import BaseAccount
+# from cosmos.auth.v1beta1.query_pb2 import (
 #     QueryAccountRequest,
 #     QueryAccountResponse,
 #     QueryParamsRequest,
 #     QueryParamsResponse,
 # )
-# from cosmpy.protos.cosmos.base.abci.v1beta1.abci_pb2 import TxResponse
-# from cosmpy.protos.cosmos.base.v1beta1.coin_pb2 import Coin
-# from cosmpy.protos.cosmos.tx.v1beta1.service_pb2 import (
+# from cosmos.base.abci.v1beta1.abci_pb2 import TxResponse
+# from cosmos.base.v1beta1.coin_pb2 import Coin
+# from cosmos.tx.v1beta1.service_pb2 import (
 #     BroadcastTxRequest,
 #     BroadcastTxResponse,
 #     GetTxRequest,
@@ -56,7 +56,7 @@
 #     SimulateRequest,
 #     SimulateResponse,
 # )
-# from cosmpy.protos.cosmos.tx.v1beta1.tx_pb2 import Tx
+# from cosmos.tx.v1beta1.tx_pb2 import Tx
 # from cosmpy.tx.interface import TxInterface
 # from tests.helpers import MockRestClient
 #

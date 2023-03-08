@@ -27,10 +27,10 @@ from google.protobuf.json_format import Parse, ParseDict
 
 from cosmpy.common.rest_client import RestClient
 from cosmpy.common.utils import json_encode
-from cosmpy.protos.cosmos.crypto.secp256k1.keys_pb2 import (  # noqa: F401  # pylint: disable=unused-import
+from cosmos.crypto.secp256k1.keys_pb2 import (  # noqa: F401  # pylint: disable=unused-import
     PubKey as ProtoPubKey,
 )
-from cosmpy.protos.cosmos.tx.v1beta1.service_pb2 import (
+from cosmos.tx.v1beta1.service_pb2 import (
     BroadcastTxRequest,
     BroadcastTxResponse,
     GetTxRequest,

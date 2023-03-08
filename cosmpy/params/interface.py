@@ -21,7 +21,7 @@
 
 from abc import ABC, abstractmethod
 
-from cosmpy.protos.cosmos.params.v1beta1.query_pb2 import (
+from cosmos.params.v1beta1.query_pb2 import (
     QueryParamsRequest,
     QueryParamsResponse,
 )

@@ -23,7 +23,7 @@ from google.protobuf.json_format import Parse
 
 from cosmpy.auth.interface import Auth
 from cosmpy.common.rest_client import RestClient
-from cosmpy.protos.cosmos.auth.v1beta1.query_pb2 import (
+from cosmos.auth.v1beta1.query_pb2 import (
     QueryAccountRequest,
     QueryAccountResponse,
     QueryParamsRequest,

@@ -22,7 +22,7 @@
 from google.protobuf.json_format import Parse
 
 from cosmpy.common.rest_client import RestClient
-from cosmpy.protos.cosmos.staking.v1beta1.query_pb2 import (
+from cosmos.staking.v1beta1.query_pb2 import (
     QueryDelegationRequest,
     QueryDelegationResponse,
     QueryDelegatorDelegationsRequest,

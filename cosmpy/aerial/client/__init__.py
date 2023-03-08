@@ -56,42 +56,42 @@ from cosmpy.cosmwasm.rest_client import CosmWasmRestClient
 from cosmpy.crypto.address import Address
 from cosmpy.distribution.rest_client import DistributionRestClient
 from cosmpy.params.rest_client import ParamsRestClient
-from cosmpy.protos.cosmos.auth.v1beta1.auth_pb2 import BaseAccount
-from cosmpy.protos.cosmos.auth.v1beta1.query_pb2 import QueryAccountRequest
-from cosmpy.protos.cosmos.auth.v1beta1.query_pb2_grpc import QueryStub as AuthGrpcClient
-from cosmpy.protos.cosmos.bank.v1beta1.query_pb2 import (
+from cosmos.auth.v1beta1.auth_pb2 import BaseAccount
+from cosmos.auth.v1beta1.query_pb2 import QueryAccountRequest
+from cosmos.auth.v1beta1.query_pb2_grpc import QueryStub as AuthGrpcClient
+from cosmos.bank.v1beta1.query_pb2 import (
     QueryAllBalancesRequest,
     QueryBalanceRequest,
 )
-from cosmpy.protos.cosmos.bank.v1beta1.query_pb2_grpc import QueryStub as BankGrpcClient
-from cosmpy.protos.cosmos.crypto.ed25519.keys_pb2 import (  # noqa # pylint: disable=unused-import
+from cosmos.bank.v1beta1.query_pb2_grpc import QueryStub as BankGrpcClient
+from cosmos.crypto.ed25519.keys_pb2 import (  # noqa # pylint: disable=unused-import
     PubKey,
 )
-from cosmpy.protos.cosmos.distribution.v1beta1.query_pb2 import (
+from cosmos.distribution.v1beta1.query_pb2 import (
     QueryDelegationRewardsRequest,
 )
-from cosmpy.protos.cosmos.distribution.v1beta1.query_pb2_grpc import (
+from cosmos.distribution.v1beta1.query_pb2_grpc import (
     QueryStub as DistributionGrpcClient,
 )
-from cosmpy.protos.cosmos.params.v1beta1.query_pb2 import QueryParamsRequest
-from cosmpy.protos.cosmos.params.v1beta1.query_pb2_grpc import (
+from cosmos.params.v1beta1.query_pb2 import QueryParamsRequest
+from cosmos.params.v1beta1.query_pb2_grpc import (
     QueryStub as QueryParamsGrpcClient,
 )
-from cosmpy.protos.cosmos.staking.v1beta1.query_pb2 import (
+from cosmos.staking.v1beta1.query_pb2 import (
     QueryDelegatorDelegationsRequest,
     QueryDelegatorUnbondingDelegationsRequest,
     QueryValidatorsRequest,
 )
-from cosmpy.protos.cosmos.staking.v1beta1.query_pb2_grpc import (
+from cosmos.staking.v1beta1.query_pb2_grpc import (
     QueryStub as StakingGrpcClient,
 )
-from cosmpy.protos.cosmos.tx.v1beta1.service_pb2 import (
+from cosmos.tx.v1beta1.service_pb2 import (
     BroadcastMode,
     BroadcastTxRequest,
     GetTxRequest,
     SimulateRequest,
 )
-from cosmpy.protos.cosmos.tx.v1beta1.service_pb2_grpc import ServiceStub as TxGrpcClient
+from cosmos.tx.v1beta1.service_pb2_grpc import ServiceStub as TxGrpcClient
 from cosmpy.protos.cosmwasm.wasm.v1.query_pb2_grpc import (
     QueryStub as CosmWasmGrpcClient,
 )

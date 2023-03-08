@@ -21,7 +21,7 @@
 
 from abc import ABC, abstractmethod
 
-from cosmpy.protos.cosmos.distribution.v1beta1.query_pb2 import (
+from cosmos.distribution.v1beta1.query_pb2 import (
     QueryCommunityPoolResponse,
     QueryDelegationRewardsRequest,
     QueryDelegationRewardsResponse,

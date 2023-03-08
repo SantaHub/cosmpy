@@ -20,7 +20,7 @@
 
 from abc import ABC, abstractmethod
 
-from cosmpy.protos.cosmos.base.tendermint.v1beta1.query_pb2 import (
+from cosmos.base.tendermint.v1beta1.query_pb2 import (
     GetBlockByHeightRequest,
     GetBlockByHeightResponse,
     GetLatestBlockRequest,

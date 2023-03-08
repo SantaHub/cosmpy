@@ -23,7 +23,7 @@ from unittest import TestCase
 from google.protobuf.json_format import ParseDict
 
 from cosmpy.common.utils import json_encode
-from cosmpy.protos.cosmos.upgrade.v1beta1.query_pb2 import (
+from cosmos.upgrade.v1beta1.query_pb2 import (
     QueryAppliedPlanRequest,
     QueryAppliedPlanResponse,
     QueryCurrentPlanRequest,

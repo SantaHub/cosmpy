@@ -21,7 +21,7 @@
 
 from abc import ABC, abstractmethod
 
-from cosmpy.protos.cosmos.mint.v1beta1.query_pb2 import (
+from cosmos.mint.v1beta1.query_pb2 import (
     QueryAnnualProvisionsResponse,
     QueryInflationResponse,
     QueryParamsResponse,

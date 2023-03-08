@@ -28,10 +28,10 @@ from cosmpy.aerial.client.utils import prepare_and_broadcast_basic_transaction
 from cosmpy.aerial.faucet import FaucetApi
 from cosmpy.aerial.tx import Transaction
 from cosmpy.aerial.wallet import LocalWallet
-from cosmpy.protos.cosmos.authz.v1beta1.authz_pb2 import Grant
-from cosmpy.protos.cosmos.authz.v1beta1.tx_pb2 import MsgGrant
-from cosmpy.protos.cosmos.bank.v1beta1.authz_pb2 import SendAuthorization
-from cosmpy.protos.cosmos.base.v1beta1.coin_pb2 import Coin
+from cosmos.authz.v1beta1.authz_pb2 import Grant
+from cosmos.authz.v1beta1.tx_pb2 import MsgGrant
+from cosmos.bank.v1beta1.authz_pb2 import SendAuthorization
+from cosmos.base.v1beta1.coin_pb2 import Coin
 
 
 def _parse_commandline():
