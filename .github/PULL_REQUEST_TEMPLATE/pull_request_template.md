@@ -19,4 +19,4 @@ Fixes #ISSUE_ID
 - [ ] Readme Updated 
 - [ ] Any new .env variable update on Readme
 - [ ] IDE Warnings Resolved
-- [ ] Dependent ZeldaPy PRs Merged and branch updated
+- [ ] Dependent PRs Merged and branch updated
